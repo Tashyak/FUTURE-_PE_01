@@ -69,107 +69,20 @@ These tools help generate structured content and convert it into **publishable w
 
 ---
 
-## Prompt System Structure
+## Repository Structure
 
 The project includes a set of reusable prompts designed to generate different sections of a website.
 
-### 1. Master Prompt
-
-The master prompt provides the AI with:
-
-* Business information
-* Target customers
-* Services offered
-* Unique selling points
-* Tone of voice
-
-This ensures that the generated content is **specific to the business** and not generic.
-
----
-
-### 2. Homepage Prompt
-
-This prompt generates homepage content including:
-
-* Headline with a clear value proposition
-* Sub-headline explaining the main benefit
-* Introduction about the business
-* Customer benefits
-* Featured menu or services
-* Welcome message for visitors
-
-The goal is to quickly communicate **why customers should choose the business**.
-
----
-
-### 3. Services / Menu Page Prompt
-
-This prompt generates detailed descriptions of services offered by the business.
-
-For a cafe, this includes sections such as:
-
-* Coffee and beverages
-* Snacks and fast food
-* Breakfast items
-* Desserts and sweets
-* Special combos
-* Takeaway options
-
-Each section explains:
-
-* What is offered
-* Why customers enjoy it
-* What makes it special
-
----
-
-### 4. Call-to-Action (CTA) Prompt
-
-CTA prompts generate persuasive messages that encourage users to take action.
-
-Examples:
-
-* Visit the cafe
-* Try signature menu items
-* Order takeaway
-* Bring friends and family
-
-These CTAs help improve **customer engagement and conversions**.
-
----
-
-### 5. Tone Adaptation Prompt
-
-This prompt allows the system to adapt its writing style depending on the business type.
-
-Examples:
-
-Friendly tone → cafes, salons
-Professional tone → clinics, institutes
-Premium tone → agencies, consultants
-
-This makes the prompt system **flexible and reusable for multiple industries**.
-
----
-
-## Generated Website Content
-
-Using the prompts, the AI generates the following website sections:
-
-### Homepage
-
-Includes the value proposition, introduction, and benefits of visiting the cafe.
-
-### Services / Menu Page
-
-Describes menu items such as coffee, snacks, desserts, and combos.
-
-### Call-to-Action Sections
-
-Encourages visitors to visit the cafe, order takeaway, or bring friends.
-
-All generated content is designed to be **clear, engaging, and ready for publishing**.
-
+AI-Website-Copy-Prompt-System
+│
+├── README.md
+├── master_prompt.md
+├── homepage_prompt.md
+├── services_prompt.md
+├── cta_prompt.md
+├── tone_adaptation_prompt.md
+├── website_builder_prompt.md
+└── generated_output.md
 ---
 
 ## Example Website Headline
