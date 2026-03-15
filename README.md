@@ -72,7 +72,7 @@ These tools help generate structured content and convert it into **publishable w
 ## Repository Structure
 
 The project includes a set of reusable prompts designed to generate different sections of a website.
-
+```
 AI-Website-Copy-Prompt-System
 │
 ├── README.md
@@ -83,6 +83,7 @@ AI-Website-Copy-Prompt-System
 ├── tone_adaptation_prompt.md
 ├── website_builder_prompt.md
 └── generated_output.md
+```
 ---
 
 ## Example Website Headline
